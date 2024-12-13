@@ -1,0 +1,117 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.date-inputs input {
+  width: calc(33.33% - 5px);
+  margin-right: 5px;
+}
+
+.buttons {
+  display: inline;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  background-color: black;
+}
+
+button[type="reset"] {
+  background-color: red;
+}
+
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #3e8e69;
+  transform: translateX(10px) translateY(5px);
+}
+
+input:invalid,
+select:invalid {
+  border-color: blue;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* tabela */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+tbody td:nth-child(3) {
+
+  color: white;
+}
+
+td {
+  position: relative;
+}
+
+.pointer {
+  position: absolute;
+}
+
+.areaText {
+  height: 30px;
+  width: 100px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .date-inputs input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

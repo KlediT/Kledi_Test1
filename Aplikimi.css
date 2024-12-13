@@ -1,0 +1,33 @@
+/* Ndryshoni ngjyren e sfondit dhe ngjyren e tekstit tek header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Stilo imazhin */
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Stilo teksti poshte imazhit */
+main p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+/* Ndryshoni ngjyren e sfondit dhe ngjyren e tekstit tek footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
